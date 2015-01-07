@@ -1,6 +1,7 @@
 # Infinite Carousel Plugin
 
 Example
+
     new InfiniteCarousel({
         element: '#myElement',
         margin: 0,
