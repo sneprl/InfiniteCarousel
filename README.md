@@ -1,6 +1,6 @@
-# Infinite Carousel Plugin
+#Infinite Carousel Plugin
 
-Example
+###Example
 
     new InfiniteCarousel({
         element: '#myElement',
