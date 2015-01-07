@@ -1,2 +1,2 @@
-# sneprl.github.io
-# Infinite Carousel Plugin Example
+# Infinite Carousel Plugin
+    new InfiniteCarousel();
