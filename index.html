@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script type="text/javascript" src="./InfiniteCarousel-min-last/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="./InfiniteCarousel-min-last/jquery.hammer.js"></script>
+    <script type="text/javascript" src="./InfiniteCarousel-min-last/InfiniteCarousel.js"></script>
+    <link rel="stylesheet" href="./InfiniteCarousel-min-last/InfiniteCarousel.css">
+    <script>
+        $(document).ready(function () {
+            var infiniteCarouselText = new InfiniteCarousel({
+                element: '#infiniteCarouselText',
+                hasLoop: false,
+                hasPosindicator: true,
+                //posindicatorInside: true,
+                posindicatorColor: 'red',
+                hasArrow: true,
+                //arrowInside: true,
+                arrowColor: 'red'
+            })
+        });
+    </script>
+</head>
+<body style="background-color:black;color: #fff;">
+<h1>Infinite Carousel Example</h1>
+<div id="infiniteCarouselText">
+    <span>First test content in span element</span>
+    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique nunc lorem. Ut quis accumsan lorem. Proin lobortis et nibh ac rhoncus. Ut gravida fringilla blandit. Vivamus mattis, diam eu.</div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac vulputate ipsum. Maecenas at elit dapibus, interdum ante eget, dapibus erat. Sed at maximus nibh, in imperdiet magna. Curabitur tincidunt lobortis tellus id suscipit. Etiam eleifend enim ut turpis volutpat molestie. Nulla diam augue, consequat sed mauris id, sollicitudin suscipit sem. Ut ultricies pulvinar nulla. Mauris in ligula dui. Cras malesuada urna et est commodo, eu convallis sem tincidunt. Aliquam vitae congue urna, sed lobortis elit. Sed sed euismod eros, ac condimentum nibh. Phasellus facilisis, est eget cursus sollicitudin, velit augue interdum neque, at lacinia odio massa at lectus. Maecenas.</div>
+</div>
+</body>
+</html>
